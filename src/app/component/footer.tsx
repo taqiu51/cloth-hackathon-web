@@ -43,16 +43,16 @@ export function Footer() {
             </p>
             <div className="flex space-x-4">
               <Link href="#" className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center hover:bg-gray-300 transition-colors">
-                <Image src="/twitter.svg" alt="Twitter" className="w-5 h-5" />
+                <Image width={50} height={50} src="/asset/t.png" alt="Twitter" className="w-5 h-5" />
               </Link>
               <Link href="#" className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center hover:bg-gray-300 transition-colors">
-                <Image src="/facebook.svg" alt="Facebook" className="w-5 h-5" />
+                <Image width={50} height={50} src="/asset/f.png" alt="Facebook" className="w-5 h-5" />
               </Link>
               <Link href="#" className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center hover:bg-gray-300 transition-colors">
-                <Image src="/instagram.svg" alt="Instagram" className="w-5 h-5" />
+                <Image width={50} height={50}  src="/asset/i.png" alt="Instagram" className="w-5 h-5" />
               </Link>
               <Link href="#" className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center hover:bg-gray-300 transition-colors">
-                <Image src="/github.svg" alt="Github" className="w-5 h-5" />
+                <Image width={50} height={50}  src="/asset/git.png" alt="Github" className="w-5 h-5" />
               </Link>
             </div>
           </div>
@@ -104,11 +104,11 @@ export function Footer() {
               Shop.co © 2000-2023, All Rights Reserved
             </p>
             <div className="flex items-center space-x-4">
-              <Image src="/visa.svg" alt="Visa" className="h-8" />
-              <Image src="/mastercard.svg" alt="Mastercard" className="h-8" />
-              <Image src="/paypal.svg" alt="PayPal" className="h-8" />
-              <Image src="/apple-pay.svg" alt="Apple Pay" className="h-8" />
-              <Image src="/google-pay.svg" alt="Google Pay" className="h-8" />
+              <Image width={50} height={50} src="/asset/v.png" alt="Visa" className="h-8" />
+              <Image width={50} height={50} src="/asset/am.png" alt="Mastercard" className="h-8" />
+              <Image width={50} height={50} src="/asset/pp.png" alt="PayPal" className="h-8" />
+              <Image width={50} height={50} src="/asset/a.png" alt="Apple Pay" className="h-8" />
+              <Image width={50} height={50} src="/asset/g.png" alt="Google Pay" className="h-8" />
             </div>
           </div>
         </div>

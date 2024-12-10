@@ -12,7 +12,7 @@ export function Header() {
       <div className="bg-black text-white text-center py-2 text-sm">
         <p className="inline-block">
           Sign up and get 20% off to your first order.{' '}
-          <Link href="/signup" className="underline">
+          <Link href="/" className="underline">
             Sign Up Now
           </Link>
         </p>
@@ -43,7 +43,7 @@ export function Header() {
               <Link href="/cart" className="p-2">
                 <ShoppingCart className="w-6 h-6" />
               </Link>
-              <Link href="/account" className="p-2">
+              <Link href="/" className="p-2">
                 <User className="w-6 h-6" />
               </Link>
             </div>
