@@ -111,7 +111,7 @@ const products: Product[] = [
 ]
 
 export default function ShopPage() {
-  const [selectedCategory, setSelectedCategory] = useState<string>('Casual')
+  const [selectedCategory] = useState<string>('Casual')
   const [priceRange, setPriceRange] = useState<number>(200)
   const [sortBy, setSortBy] = useState<string>('Most Popular')
 

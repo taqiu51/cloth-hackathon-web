@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import { Mail } from 'lucide-react'
 
@@ -38,20 +39,20 @@ export function Footer() {
               SHOP.CO
             </Link>
             <p className="text-gray-600 mb-6">
-              We have clothes that suits your style and which you're proud to wear. From women to men.
+              We have clothes that suits your style and which youre proud to wear. From women to men.
             </p>
             <div className="flex space-x-4">
               <Link href="#" className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center hover:bg-gray-300 transition-colors">
-                <img src="/twitter.svg" alt="Twitter" className="w-5 h-5" />
+                <Image src="/twitter.svg" alt="Twitter" className="w-5 h-5" />
               </Link>
               <Link href="#" className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center hover:bg-gray-300 transition-colors">
-                <img src="/facebook.svg" alt="Facebook" className="w-5 h-5" />
+                <Image src="/facebook.svg" alt="Facebook" className="w-5 h-5" />
               </Link>
               <Link href="#" className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center hover:bg-gray-300 transition-colors">
-                <img src="/instagram.svg" alt="Instagram" className="w-5 h-5" />
+                <Image src="/instagram.svg" alt="Instagram" className="w-5 h-5" />
               </Link>
               <Link href="#" className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center hover:bg-gray-300 transition-colors">
-                <img src="/github.svg" alt="Github" className="w-5 h-5" />
+                <Image src="/github.svg" alt="Github" className="w-5 h-5" />
               </Link>
             </div>
           </div>
@@ -103,11 +104,11 @@ export function Footer() {
               Shop.co © 2000-2023, All Rights Reserved
             </p>
             <div className="flex items-center space-x-4">
-              <img src="/visa.svg" alt="Visa" className="h-8" />
-              <img src="/mastercard.svg" alt="Mastercard" className="h-8" />
-              <img src="/paypal.svg" alt="PayPal" className="h-8" />
-              <img src="/apple-pay.svg" alt="Apple Pay" className="h-8" />
-              <img src="/google-pay.svg" alt="Google Pay" className="h-8" />
+              <Image src="/visa.svg" alt="Visa" className="h-8" />
+              <Image src="/mastercard.svg" alt="Mastercard" className="h-8" />
+              <Image src="/paypal.svg" alt="PayPal" className="h-8" />
+              <Image src="/apple-pay.svg" alt="Apple Pay" className="h-8" />
+              <Image src="/google-pay.svg" alt="Google Pay" className="h-8" />
             </div>
           </div>
         </div>
